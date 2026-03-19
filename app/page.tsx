@@ -167,7 +167,7 @@ export default function Home() {
               {TAGLINES[tagIdx]}
             </div>
             <button className="bp" onClick={() => go(1)}>
-              Send an anonymous nudge — $0.49 →
+              Send an anonymous nudge — $0.50 →
             </button>
             <p
               style={{
@@ -181,7 +181,7 @@ export default function Home() {
             </p>
             <div className="stats">
               <div style={{ textAlign: "center" }}>
-                <div className="sn">$0.49</div>
+                <div className="sn">$0.50</div>
                 <div className="sl">per nudge</div>
               </div>
               <div style={{ textAlign: "center" }}>
@@ -337,7 +337,7 @@ export default function Home() {
               disabled={!validPhone || loading}
               onClick={handleCheckout}
             >
-              {loading ? "Redirecting to payment..." : "Pay $0.49 & send →"}
+              {loading ? "Redirecting to payment..." : "Pay $0.50 & send →"}
             </button>
 
             <p
