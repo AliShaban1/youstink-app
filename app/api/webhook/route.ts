@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
     if (note) {
       smsBody += `\n\n"${note}"`;
     }
-    smsBody += `\n\n— Sent anonymously via YouStink.app`;
+    smsBody += `\n\n— Sent anonymously via youstink.wtf`;
 
     try {
       const formattedPhone = phone.length === 10 ? `+1${phone}` : `+${phone}`;
