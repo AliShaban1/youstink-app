@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
               name: "Stink Nudge",
               description: `Anonymous SMS: "${message.short}"`,
             },
-            unit_amount: 99, // $0.99 in cents
+            unit_amount: 49, // $0.49 in cents
           },
           quantity: 1,
         },
