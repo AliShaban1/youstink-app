@@ -42,7 +42,8 @@ export async function POST(req: NextRequest) {
     smsBody += `\n\n— Sent anonymously via YouStink.app`;
 
     try {
-      const sid = await sendSMS(`+${phone}`, smsBody);
+      const formattedPhone = phone.length === 10 ? `+1${phone}` : `+${phone}`;
+      const sid = await sendSMS(formattedPhone, smsBody);
       console.log("SMS sent:", sid, "to:", phone);
     } catch (err: any) {
       console.error("SMS send failed:", err.message);
