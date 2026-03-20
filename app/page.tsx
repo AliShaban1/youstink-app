@@ -167,7 +167,7 @@ export default function Home() {
               {TAGLINES[tagIdx]}
             </div>
             <button className="bp" onClick={() => go(1)}>
-              Send an anonymous nudge — $0.50 →
+              Send an anonymous nudge →
             </button>
             <p
               style={{
@@ -328,7 +328,7 @@ export default function Home() {
                     </div>
                   )}
                 </div>
-                <div className="pvft">— Sent anonymously via YouStink.app</div>
+                <div className="pvft">— Sent anonymously via youstink.wtf</div>
               </div>
             )}
 
@@ -373,7 +373,7 @@ export default function Home() {
       </div>
 
       <footer className="ft">
-        YouStink.app — built with questionable intentions and zero filter.
+        youstink — built with questionable intentions and zero filter.
       </footer>
 
       <style jsx>{`
